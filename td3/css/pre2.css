@@ -1,0 +1,14 @@
+.bt {
+  background-color: #FFDC00;
+  height: 2em;
+  line-height: 2em;
+}
+
+.jauge {
+    background-color: #39CCCC;
+    color: white;
+    padding: 0;
+    border: 0;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}

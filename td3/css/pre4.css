@@ -1,0 +1,13 @@
+
+
+section {
+  padding : 10px;
+  border: 1px solid grey;
+}
+
+p {
+  background-color: transparent;
+  width: 20em;
+  padding: .5em;
+  border: 1px solid grey;
+}
