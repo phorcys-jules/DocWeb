@@ -1,0 +1,15 @@
+p {
+    display: inline-block;
+    width: 15rem;
+    height: 5rem;
+    padding: 1rem;
+    border: 1px solid grey;
+    vertical-align: top;
+}
+
+.ib {
+    display: inline-block;
+    width: .8em;
+    height: .8em;
+    background-color: black
+}
