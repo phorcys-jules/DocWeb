@@ -13,3 +13,25 @@ p {
     height: .8em;
     background-color: black
 }
+
+#one {
+    height: auto;
+    text-align: justify;
+    line-height: 1.5}
+#two {
+    text-align: end;
+}
+#two, #five {
+    overflow-x: scroll;
+}
+#three {
+    overflow: hidden;
+}
+#four {
+    white-space: nowrap;
+    overflow-y: scroll;
+}
+#five {
+    height: 10rem;
+    white-space: pre-wrap;
+}
