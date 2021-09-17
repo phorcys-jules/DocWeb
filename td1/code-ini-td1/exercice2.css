@@ -1,0 +1,21 @@
+div{
+    color: blue;
+}
+
+.troisiemediv{
+    color: orange;
+}
+
+p{
+    color: green;
+}
+
+/*à niveau de précision équivalent c'est la derniere propriété qui écrase
+ la précédente, ici les div seront rouge sans plus de précision**/
+div{
+    color: red;
+}
+
+.nonhérite{
+    color: inherit;
+}

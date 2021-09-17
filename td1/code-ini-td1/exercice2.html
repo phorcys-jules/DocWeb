@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercice2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        ici je subit le css du div
+        <p>la balise p étant considéré comme plus précise, son css ecrase celui du div</p>
+    </div>
+    <div>
+        <span class="nonhérite">hérite de la couleur grace au inherit alors que la balise à une classe et ne devrait pas hériter</span>
+    </div>
+    <div class="troisiemediv">
+        ce div est dans une class, le css s'applicant à la classe écrase le css de la balise div
+    </div>
+</body>
+</html>

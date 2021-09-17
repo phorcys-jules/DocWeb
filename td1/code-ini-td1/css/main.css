@@ -1,0 +1,69 @@
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+
+p,
+div {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+p {
+    width: 5em;
+    height: 5em;
+    line-height: 5em;
+    float: left;
+    background-color: yellowgreen;
+    margin: 1em;
+    border-radius: 10px;
+    text-align: center;
+    color: brown;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    clear: both;
+}
+
+div p:first-of-type{
+    background-color: midnightblue;
+}
+
+div p:last-of-type{
+    background-color: peachpuff;
+}
+
+p:nth-child(5n+3){
+    border: 2px solid grey;
+}
+
+div:nth-child(2) p:nth-child(4n+2){
+    border: 2px solid red;
+}
+
+p[title]{
+    background-color: palevioletred;
+}
+
+div:nth-child(3) p[title]+p{
+    font-size: 20px;
+}
+
+div:nth-child(4) p[id*="yo"]{
+    background-color: coral;
+}
+
+div:nth-child(4) p[id^="yo"]{
+    background-color: darkcyan;
+}
+
+div:first-of-type p:nth-child(3n+2)::after{
+    content: ";-)";
+}
