@@ -12,3 +12,22 @@
     margin-bottom: 1px;
     margin-top: 1px;
 }
+.b1{
+    padding: 5px 10px 5px 5px;
+    border: 5px black solid;
+    width: 100px;
+}
+.j1{
+    width: 125px;
+}
+.b2{
+    padding: 0px 5% 0px 5vw;
+    border: 1vw black solid;
+    width: 10rem;
+    box-sizing: border-box;
+    /**border-box signifie que la largeur de la box se mesure en
+    comptent les bords*/
+}
+.j2{
+    width: 10rem;
+}
