@@ -24,15 +24,29 @@ p {
 }
 
 
+.px72 { width: 72px; }
+.px96 { width: 96px; }
+.px100 { width: 100px; }
+.px320 { width: 320px; }
+.px480 { width: 480px; }
 
-.px96 {
+.pt72 { width: 72pt; }
+.pt100 { width: 100pt; }
 
-}
+.inch1 { width: 1in; }
 
-.inch1 {
+.vw20 { width: 20vw; }
 
-}
+.vh20 { width: 20vh; }
 
-.pourc100 {
+.em5 { width: 5em; }
+.em20 { width: 20em; }
 
-}
+.cm5 { width: 5cm; }
+.cm20 { width: 20cm; }
+
+.pourc20 { width: 20%; }
+.pourc100 { width: 100%; }
+
+.f30 {width: 30fr;}
+
