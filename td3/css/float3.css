@@ -1,0 +1,23 @@
+p {
+    background-color: grey;
+    margin : 0;
+}
+p.img1 , p.img2 {
+    background-color: red;
+    width: 20%;
+    line-height: 0;
+}
+p.img1 {
+    float: left;
+}
+
+p.img2 {
+    float: right;
+}
+p.img1 > img , p.img2 > img{
+    max-width: 100%;
+    min-width: 20%;
+}
+section {
+    float: left;
+}

@@ -1,0 +1,12 @@
+p {
+    background-color: grey;
+    margin : 0;
+}
+p.img1 , p.img2 {
+    background-color: red;
+    width: 10%;
+    line-height: 0;
+}
+p.img1 > img , p.img2 > img{
+    max-width: 100%;
+}

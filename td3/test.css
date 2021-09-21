@@ -1,0 +1,28 @@
+#cat {
+    width :100%;
+    background-image : url("https://www.tarvinvets.co.uk/wp-content/uploads/sites/13/2018/04/Kitten-pack.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #media {
+    border : 1px dashed red;
+  }
+  .hori {
+    display : flex;
+    flex-direction : column;
+  }
+
+  #cat >.hori {
+    width : 10%
+  }
+  #cat >.verti {
+    width : 10%
+  }
+  
+  .verti {
+    display : flex;
+    flex-direction : row;
+  }
+  
+  
