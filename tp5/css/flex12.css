@@ -1,0 +1,10 @@
+.flex-container {
+    padding: 1em;
+    background-color: rgba(47, 255, 85, 0.84);
+}
+
+p {
+    background-color: #00FBFF;
+    padding: .5em;
+    outline: 1px solid grey;
+}
