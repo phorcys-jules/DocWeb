@@ -1,0 +1,31 @@
+.menu > ul {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-row: 4;
+}
+li {
+    grid-row: 1/4;
+    text-align: center;
+}
+.content > div {
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid red;
+}
+.content > div  > div  {
+    border: 2px solid green;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+.content > div  > div + div {
+    border: 2px dashed black;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+.content > div:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: yellow;
+}

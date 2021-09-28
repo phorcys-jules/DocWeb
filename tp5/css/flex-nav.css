@@ -1,0 +1,39 @@
+ul {
+    display: flex;
+    flex-direction: column;
+}
+li {
+    background-color: orange;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none9;
+    
+}
+
+.flex-container {
+    padding: 1em;
+    background-color: rgba(47, 255, 85, 0.84);
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    height: 30em;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+p {
+    background-color: #00FBFF;
+    padding: .5em;
+    outline: 1px solid grey;
+    width: 12%;
+    /* margin: 1%; */
+}
+
+@media screen and (min-device-width : 800px) {
+    ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
