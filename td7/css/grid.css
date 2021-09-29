@@ -1,0 +1,16 @@
+
+body {
+  padding: 0;
+  height: 100vh;
+}
+/* Fichier de départ */
+.grid_item {
+  box-sizing: border-box;
+  border: 1px solid grey;
+  text-align: center;
+  line-height: 100px;
+}
+
+.grid_container {
+  display: grid;
+}
