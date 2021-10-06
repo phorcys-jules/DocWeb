@@ -1,0 +1,23 @@
+
+@mixin md-screen{
+    @media only screen and (max-width: 600px) {
+        @content;
+    }
+    
+}
+
+@mixin lg-screen{
+    @media only screen and (max-width: 1200px) {
+        @content;
+    }
+}
+
+.content {
+    @include lg-screen{
+        background-color: green;
+    }
+    @include md-screen{
+        background-color: blue;
+    }
+}
+

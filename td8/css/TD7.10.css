@@ -1,0 +1,19 @@
+.content {
+  width: 200px;
+  height: 20%;
+  font-size: 20px;
+  padding: 2px;
+  background-color: red;
+}
+.content h1 {
+  color: white;
+  font-size: large;
+  font-weight: 200;
+  background-color: rebeccapurple;
+}
+.content h1:hover {
+  font-size: 24px;
+  background-color: #8040bf;
+}
+
+/*# sourceMappingURL=TD7.10.css.map */

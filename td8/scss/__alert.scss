@@ -1,0 +1,33 @@
+.alert{
+    //strcuture box padding etc....
+    border: 5px solid black;
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    padding-left: 5px;
+    h4{
+        text-align: center
+    }
+
+}
+
+.alert-success{
+    @extend .alert;
+    background-color: green;
+        
+}
+.cefini{
+    @extend .alert;
+    background-color: red;
+}
+.attention{
+    @extend .alert;
+    background-color: orange;
+}
+.message-info{
+    @extend .alert;
+    background-color: blue;
+    a{
+        color: white;
+    }
+}

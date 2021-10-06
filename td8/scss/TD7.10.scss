@@ -1,0 +1,25 @@
+$size: 200px;
+$h1_size: 20px;
+$h1_bColor: rgb(102, 51, 153);
+
+.content {
+    width: $size;
+    height: 20%;
+    font-size: $h1_size;
+    padding: 2px;
+    background-color: red;
+
+    h1 {
+        color: white;
+        font-size: large;
+        font-weight: 200;
+        background-color: $h1_bColor;
+    }
+        
+    h1:hover {
+        font-size: $h1_size*1.2;
+        background-color: lighten($color: $h1_bColor, $amount: 10);
+       
+    }       
+    
+}

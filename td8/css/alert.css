@@ -1,0 +1,31 @@
+.alert, .message-info, .attention, .cefini, .alert-success {
+  border: 5px solid black;
+  width: 300px;
+  height: 150px;
+  margin: 5px;
+  padding-left: 5px;
+}
+.alert h4, .message-info h4, .attention h4, .cefini h4, .alert-success h4 {
+  text-align: center;
+}
+
+.alert-success {
+  background-color: green;
+}
+
+.cefini {
+  background-color: red;
+}
+
+.attention {
+  background-color: orange;
+}
+
+.message-info {
+  background-color: blue;
+}
+.message-info a {
+  color: white;
+}
+
+/*# sourceMappingURL=alert.css.map */

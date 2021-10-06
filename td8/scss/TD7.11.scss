@@ -1,0 +1,16 @@
+@import 'TD7.10.scss';
+$size: 200px;
+$h1_size: 20px;
+$h1_bColor: rgb(102, 51, 153);
+
+section  {
+   @extend .content;
+   border: 3px solid red;
+   margin: 5%;
+   background-color: yellow;
+
+}
+
+
+
+@import '__content.scss';

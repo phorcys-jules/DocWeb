@@ -1,0 +1,41 @@
+@import "./materialize.scss";
+
+.titre {
+    @extend .materialize-red;
+}
+
+.bien-justifié {
+
+}
+
+.navigation {
+    a {
+        @extend .material-icons;
+        content: account_circle;
+    }
+}
+i {
+    @extend .material-icons;
+    @extend .tiny;
+
+    background-color: black;
+}
+
+.liste-squ{
+    li:nth-child(1){
+        @extend .materialize-red;
+    }
+    li:nth-child(2){
+        @extend .green;
+    }
+    li:nth-child(3){
+        @extend .yellow;
+    }
+    li:nth-child(4){
+        @extend .orange;
+    }
+}
+
+.code {
+
+}
