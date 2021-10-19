@@ -1,0 +1,135 @@
+@media (max-width: 800px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (min-width: 800px) {
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+}
+ul {
+  list-style: none;
+}
+
+li {
+  width: 25%;
+  height: 3em;
+  padding-top: 2em;
+  background-color: green;
+  border: 1px #004d00 solid;
+  text-align: right;
+}
+
+.a-menu-nav {
+  text-decoration: none;
+  color: black;
+}
+
+.alert-success {
+  border: 5px solid black;
+  width: 300px;
+  height: 150px;
+  margin: 5px;
+  padding-left: 5px;
+  background-color: green;
+}
+.alert-success h4 {
+  text-align: center;
+}
+
+.cefini {
+  border: 5px solid black;
+  width: 300px;
+  height: 150px;
+  margin: 5px;
+  padding-left: 5px;
+  background-color: red;
+}
+.cefini h4 {
+  text-align: center;
+}
+
+.attention {
+  border: 5px solid black;
+  width: 300px;
+  height: 150px;
+  margin: 5px;
+  padding-left: 5px;
+  background-color: orange;
+}
+.attention h4 {
+  text-align: center;
+}
+
+.message-info {
+  border: 5px solid black;
+  width: 300px;
+  height: 150px;
+  margin: 5px;
+  padding-left: 5px;
+  background-color: blue;
+}
+.message-info h4 {
+  text-align: center;
+}
+
+.cancel {
+  background-color: white;
+  color: blue;
+  line-height: 2.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.cancel:hover {
+  background-color: blue;
+  color: white;
+}
+
+.confirm {
+  background-color: blue;
+  color: white;
+  line-height: 2.5;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.confirm:hover {
+  background-color: white;
+  color: blue;
+}
+
+/*
+.logo{
+    padding: 20px;
+    width: 20px;
+    @for $var from 0 to 255 {
+        background-color: rgb($var, 100, 100);
+    }
+}*/
+.grille p {
+  /* le comportement de vos boites */
+  float: left;
+  background: red;
+  padding: 0px;
+  width: 25%;
+}
+.grille p.deux {
+  width: 50%;
+}
+.grille p.trois {
+  width: 75%;
+}
+.grille p.quatre {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */

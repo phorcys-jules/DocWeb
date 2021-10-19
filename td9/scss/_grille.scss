@@ -1,0 +1,16 @@
+@mixin grille($nbCol, $gutters : 0px){
+      p {
+            /* le comportement de vos boites */
+            float:left;
+            background: red;
+            padding: $gutters;
+
+            width : 1 / $nbCol * 100%;
+      }p.deux {
+            width : 2 / $nbCol * 100%;
+      }p.trois {
+            width : 3 / $nbCol * 100%;
+      }p.quatre {
+            width : 4 / $nbCol * 100%;
+      }
+}

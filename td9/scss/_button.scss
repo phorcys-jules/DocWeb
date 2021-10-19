@@ -1,0 +1,30 @@
+$bg: blue;
+$front:white;
+
+@mixin button($type){
+    @if $type == confirm{
+         background-color: $bg;
+         color: $front;
+         &:hover{
+             background-color: $front;
+             color: $bg;
+         }
+    }
+    @else if $type == cancel{
+        background-color: $front;
+        color: $bg;
+        &:hover{
+            background-color: $bg;
+            color: $front;
+        }
+    }
+    line-height: 2.5;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+    
+}

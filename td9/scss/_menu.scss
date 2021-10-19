@@ -1,0 +1,26 @@
+@mixin alert($bgCol:white){
+    //strcuture box padding etc....
+    border: 5px solid black;
+    width: 300px;
+    height: 150px;
+    margin: 5px;
+    padding-left: 5px;
+    h4{
+        text-align: center
+    }
+    background-color: $bgCol;
+
+}
+@mixin alertType($type) {
+    @if $type == success {
+            @include alert(green);
+      } @else if $type == cefini {
+            @include alert(red);
+      } @else if $type == attention {
+            @include alert(orange);
+      } @else if $type == message-info {
+            @include alert(blue);
+      } @else {
+            @error "Unknown type #{$type}.";
+      }
+}

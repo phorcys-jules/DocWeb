@@ -1,0 +1,68 @@
+@import "./_alert.scss", "./_button.scss", "_grille.scss", "_menu.scss", "_flex-nav";
+
+$size:0;
+
+@media (max-width: 800px) {
+    $size: 799;//mobile
+    ul{
+        @include nav($size);
+    }
+}
+@media (min-width: 800px) {
+    $size: 801;//ordi
+    ul{
+        @include nav($size);
+    }
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    width:25%;
+    height:3em;
+    padding-top: 2em;
+    @include li(green, right);
+}
+
+.a-menu-nav{
+    text-decoration: none;
+    color: black;
+}
+
+.alert-success{
+    @include alertType(success);   
+}
+.cefini{
+    @include alertType(cefini);
+}
+.attention{
+    @include alert(orange);
+}
+.message-info{
+    @include alertType(message-info);
+}
+
+.cancel{
+    @include button(cancel);
+}
+.confirm{
+    @include button(confirm);
+}
+
+/*
+.logo{
+    padding: 20px;
+    width: 20px;
+    @for $var from 0 to 255 {
+        background-color: rgb($var, 100, 100);
+    }
+}*/
+
+.grille{
+    @include grille(4);
+}
+
+
+
