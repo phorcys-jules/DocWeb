@@ -1,0 +1,121 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: block;
+  height: 12em;
+  margin-right: 1em;
+  margin-bottom: 2em;
+}
+header #head-haut {
+  display: flex;
+  width: 100%;
+}
+header #head-haut #head-gauche {
+  display: flex;
+}
+header #head-haut #head-gauche h1 {
+  margin-left: 1em;
+}
+header #head-haut #head-gauche #logo {
+  width: 5em;
+  margin-left: 1em;
+}
+header #head-haut #head-droite {
+  position: absolute;
+  top: 1em;
+  right: 2em;
+}
+header #head-haut #head-droite .social {
+  height: 2em;
+  width: 2em;
+  margin: 0.5em;
+}
+header #head-bas {
+  margin: 2em 0 1em 0;
+}
+header #head-bas p {
+  color: gray;
+  margin: 0 1em 0 1em;
+  font-size: large;
+}
+
+body {
+  margin: 0%;
+  display: grid;
+}
+
+footer {
+  display: flex;
+}
+
+article, header {
+  -webkit-box-shadow: 5px 5px 15px 1px #888888;
+  box-shadow: 5px 5px 15px 1px #888888;
+}
+
+.lArticle article, .lArticle nav {
+  /* le comportement de vos boites */
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 15%;
+  min-height: 500px;
+}
+.lArticle article .banniere, .lArticle nav .banniere {
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100%;
+  width: auto;
+  height: auto;
+  min-height: 100px;
+}
+.lArticle article .categorie, .lArticle nav .categorie {
+  color: white;
+}
+.lArticle .taille2 {
+  width: 30%;
+}
+.lArticle .banniere, .lArticle img {
+  width: 100%;
+}
+
+.titre, #navigation {
+  color: orange;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color: orange;
+}
+li .logo-li {
+  height: 1em;
+  width: 1em;
+  margin-right: 0.5em;
+}
+
+.banniere {
+  padding: 1em;
+}
+.banniere .categorie {
+  width: 100%;
+  margin: 0;
+  font-weight: 900;
+  font-size: small;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+.sub {
+  margin-left: 30px;
+}
+
+#nav_text {
+  color: orange;
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=main.css.map */

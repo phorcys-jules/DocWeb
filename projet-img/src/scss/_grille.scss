@@ -1,0 +1,28 @@
+@mixin grille($nbCol, $gutters : 0px){
+      article, nav {
+            /* le comportement de vos boites */
+            float:left;
+            margin-left: $gutters;
+            margin-bottom: $gutters;
+            width : 1 / $nbCol * 90%;
+            min-height: 500px;
+            .banniere {
+                  background-repeat: no-repeat;
+                  background-position:left top;
+                  background-size: 100%;
+                  width: auto;
+                  height: auto;
+                  min-height: 100px;
+            }
+            .categorie {
+                  color: white;
+            }
+      }
+      .taille2{
+            width : 2 / $nbCol * 90%;
+      }
+      .banniere, img {
+            width: 100%;
+      }
+
+}
