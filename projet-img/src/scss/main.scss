@@ -1,6 +1,18 @@
 @import "./grille.scss";
 @import "./li.scss";
 
+@mixin sm-screen{
+    @media only screen and (max-width: 992px) {
+        @content;
+    }
+}
+
+@mixin xs-screen{
+    @media only screen and (max-width: 575px) {
+        @content;
+    }
+}
+
 p{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -65,6 +77,14 @@ article, header {
 }
 .lArticle {
     @include grille(6, 20px);
+
+    @include sm-screen{
+        @include grille(2, 20px);
+    }
+    
+    @include xs-screen{
+        @include grille(1, 20px);
+    }  
 
 }
 

@@ -77,8 +77,81 @@ article, header {
 .lArticle .taille2 {
   width: 30%;
 }
+@media only screen and (max-width: 992px) {
+  .lArticle .taille2 {
+    width: 90%;
+  }
+}
 .lArticle .banniere, .lArticle img {
   width: 100%;
+}
+@media only screen and (max-width: 992px) {
+  .lArticle article, .lArticle nav {
+    /* le comportement de vos boites */
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 45%;
+    min-height: 500px;
+  }
+  .lArticle article .banniere, .lArticle nav .banniere {
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+    width: auto;
+    height: auto;
+    min-height: 100px;
+  }
+  .lArticle article .categorie, .lArticle nav .categorie {
+    color: white;
+  }
+  .lArticle .taille2 {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 992px) and (max-width: 992px) {
+  .lArticle .taille2 {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .lArticle .banniere, .lArticle img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .lArticle article, .lArticle nav {
+    /* le comportement de vos boites */
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+    min-height: 500px;
+  }
+  .lArticle article .banniere, .lArticle nav .banniere {
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+    width: auto;
+    height: auto;
+    min-height: 100px;
+  }
+  .lArticle article .categorie, .lArticle nav .categorie {
+    color: white;
+  }
+  .lArticle .taille2 {
+    width: 180%;
+  }
+}
+@media only screen and (max-width: 575px) and (max-width: 992px) {
+  .lArticle .taille2 {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .lArticle .banniere, .lArticle img {
+    width: 100%;
+  }
 }
 
 .titre, #navigation {

@@ -1,3 +1,15 @@
+@mixin sm-screen{
+      @media only screen and (max-width: 992px) {
+          @content;
+      }
+  }
+  
+@mixin xs-screen{
+      @media only screen and (max-width: 575px) {
+          @content;
+      }
+  }
+  
 @mixin grille($nbCol, $gutters : 0px){
       article, nav {
             /* le comportement de vos boites */
@@ -20,6 +32,9 @@
       }
       .taille2{
             width : 2 / $nbCol * 90%;
+            @include sm-screen{
+                  width: 90%;
+              }  
       }
       .banniere, img {
             width: 100%;
