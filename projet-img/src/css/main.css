@@ -4,7 +4,8 @@ p {
 
 header {
   display: block;
-  height: 12em;
+  min-height: 12em;
+  height: fit-content;
   margin-right: 1em;
   margin-bottom: 2em;
 }
@@ -26,6 +27,11 @@ header #head-haut #head-droite {
   position: absolute;
   top: 1em;
   right: 2em;
+}
+@media only screen and (max-width: 992px) {
+  header #head-haut #head-droite {
+    position: relative;
+  }
 }
 header #head-haut #head-droite .social {
   height: 2em;
@@ -189,6 +195,10 @@ li .logo-li {
 #nav_text {
   color: orange;
   font-weight: 800;
+}
+
+footer button {
+  float: right;
 }
 
 /*# sourceMappingURL=main.css.map */

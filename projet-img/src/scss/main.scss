@@ -1,6 +1,11 @@
 @import "./grille.scss";
 @import "./li.scss";
 
+@mixin md-screen{
+    @media only screen and (max-width: 992px) {
+        @content;
+    }
+}
 @mixin sm-screen{
     @media only screen and (max-width: 992px) {
         @content;
@@ -19,7 +24,8 @@ p{
 
 header{
     display: block;
-    height: 12em;
+    min-height: 12em;
+    height: fit-content;
     margin-right: 1em; 
     margin-bottom: 2em;
 
@@ -39,9 +45,15 @@ header{
         }
 
         #head-droite{
+
+
             position: absolute;
             top: 1em;
             right: 2em;
+            
+            @include sm-screen{
+                position: relative;
+            }
 
             .social{
                 height: 2em;
@@ -124,4 +136,9 @@ li{
 #nav_text{
     color: orange;
     font-weight: 800;
+}
+footer {
+    button {
+        float: right;
+    }
 }
